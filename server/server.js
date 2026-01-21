@@ -54,7 +54,7 @@ await connectDB();
 if(process.env.NODE_ENV !== "production")
 {
 const PORT=process.env.PORT || 5000; // default port 5000 if not specified in environment variables.
-server.listen(PORT, ()=>console.log(`Server running on port ${PORT}`)); 
+server.listen(PORT, ()=>console.log("Server running on PORT: " + PORT)); 
 }
 
 
