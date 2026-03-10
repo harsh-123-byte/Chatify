@@ -1,3 +1,5 @@
+// This file defines the User model using Mongoose, which represents the structure of user data in the database. Each user has an email, full name, password, profile picture, and bio. The schema also includes timestamps to track when users are created and updated.
+
 import mongoose from "mongoose"; 
 import { minLength } from "zod";
 

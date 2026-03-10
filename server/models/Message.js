@@ -1,3 +1,5 @@
+// This file defines the Message model using Mongoose, which represents the structure of messages in the database. Each message has a sender, a receiver, text content, an optional image, and a seen status. The schema also includes timestamps to track when messages are created and updated.
+
 import mongoose from "mongoose"; 
 import { required } from "zod/mini";
 

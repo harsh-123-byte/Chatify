@@ -1,6 +1,8 @@
 import jwt from "jsonwebtoken";
 import User from "../models/User.js";
 
+
+// we are creating our own middleware for the user authentication
 export const protectRoute=async(req,res,next)=>{
     try {
         const token=req.headers.token; // getting token from request headers,matlab client ne jo token bheja hai wo yaha milega.
